@@ -1,0 +1,23 @@
+{
+  "name": "@flow-build/plugin-template",
+  "version": "1.0.0",
+  "description": "flow-build workflow and cockpit api template",
+  "main": "index.js",
+  "scripts": {
+    "package": "ncc build index.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flow-build/plugin-template.git"
+  },
+  "author": "FDTE-DSD",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/flow-build/plugin-template/issues"
+  },
+  "homepage": "https://github.com/flow-build/plugin-template#readme",
+  "dependencies": {
+    "@flow-build/compose": "^1.0.0",
+    "@zeit/ncc": "^0.21.1"
+  }
+}

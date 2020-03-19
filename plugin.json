@@ -1,0 +1,13 @@
+{
+    "name": "example",
+    "type": "middleware",
+    "to": "workflow",
+    "run": "src/index.js",
+    "input": [
+        {
+            "name": "<your_input_name>",
+            "type": "string",
+            "default": "input hello world"
+        }
+    ]
+}
