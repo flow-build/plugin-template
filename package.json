@@ -1,5 +1,5 @@
 {
-  "name": "@flow-build/plugin-template",
+  "name": "@flowbuild/plugin-template",
   "version": "1.0.0",
   "description": "flow-build workflow and cockpit api template",
   "main": "index.js",
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/flow-build/plugin-template#readme",
   "dependencies": {
-    "@flow-build/compose": "^1.0.0",
+    "@flowbuild/compose": "^1.0.0",
     "@zeit/ncc": "^0.21.1"
   }
 }
